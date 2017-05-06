@@ -1,0 +1,16 @@
+Source: fast-align
+Section: science
+Priority: optional
+Maintainer: Tomás Pinho <tomas@unbabel.com>
+Build-Depends: debhelper (>=9),
+               libgoogle-perftools-dev,
+               libsparsehash-dev,
+               cmake
+Standards-Version: 3.9.7
+Homepage: https://github.com/clab/fast_align
+
+Package: fast-align
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: fast_align word aligner
+ fast_align is a simple, fast, unsupervised word aligner.

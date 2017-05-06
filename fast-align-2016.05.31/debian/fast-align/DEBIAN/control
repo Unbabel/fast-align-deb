@@ -1,0 +1,11 @@
+Package: fast-align
+Version: 2016.05.31-1
+Architecture: amd64
+Maintainer: Tomás Pinho <tomas@unbabel.com>
+Installed-Size: 198
+Depends: libc6 (>= 2.23), libgcc1 (>= 1:3.0), libgomp1 (>= 4.9), libstdc++6 (>= 5.2)
+Section: science
+Priority: optional
+Homepage: https://github.com/clab/fast_align
+Description: fast_align word aligner
+ fast_align is a simple, fast, unsupervised word aligner.

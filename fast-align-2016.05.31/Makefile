@@ -9,5 +9,6 @@ build: clean
 
 install: build
 	install -m 0755 build/fast_align $(DESTDIR)/usr/bin
+	install -m 0755 build/atools $(DESTDIR)/usr/bin
 
 .PHONY: install	

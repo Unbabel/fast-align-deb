@@ -1,3 +1,4 @@
 add_makefile
 debianize_makefil
 add_clean_step_makefile
+add_atools_makefile

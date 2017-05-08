@@ -25,3 +25,4 @@
 
 override_dh_auto_install:
 	install -D -m 0755 build/fast_align $$(pwd)/debian/fast-align/usr/bin/fast_align
+	install -D -m 0755 build/atools $$(pwd)/debian/fast-align/usr/bin/atools
